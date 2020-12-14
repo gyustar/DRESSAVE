@@ -6,7 +6,7 @@ import ShopPage from './ShopPage';
 
 function App() {
   const [user, setUser] = useState(null);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const checkUser = useCallback(userData => {
     if (!userData) {
